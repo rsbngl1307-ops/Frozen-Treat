@@ -132,7 +132,7 @@ function App() {
           </div>
 
           <div>
-            <strong>FROZEN TREART</strong>
+            <strong>FROZEN TREAT</strong>
             <span>Sweet moments, served chilled</span>
           </div>
         </a>
@@ -176,7 +176,7 @@ function App() {
               </a>
 
               <a
-                href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treart,%20I%20would%20like%20to%20enquire%20about%20an%20order.`}
+                href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treat,%20I%20would%20like%20to%20enquire%20about%20an%20order.`}
                 target="_blank"
                 rel="noreferrer"
                 className="secondary-btn"
@@ -216,7 +216,7 @@ function App() {
           <div className="hero-visual">
             <img
               src="https://images.unsplash.com/photo-1488900128323-21503983a07e?auto=format&fit=crop&w=1200&q=85"
-              alt="Colourful frozen desserts"
+              alt="Frozen Treat colourful frozen desserts in Gudlavalleru"
             />
 
             <div className="floating-card">
@@ -275,7 +275,7 @@ function App() {
                   <p>{item.description}</p>
 
                   <a
-                    href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treart,%20I%20want%20to%20enquire%20about%20${encodeURIComponent(
+                    href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treat,%20I%20want%20to%20enquire%20about%20${encodeURIComponent(
                       item.name
                     )}.`}
                     target="_blank"
@@ -321,7 +321,7 @@ function App() {
             </div>
 
             <a
-              href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treart,%20I%20would%20like%20to%20enquire%20about%20services%20for%20a%20function%20or%20event.`}
+              href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treat,%20I%20would%20like%20to%20enquire%20about%20services%20for%20a%20function%20or%20event.`}
               target="_blank"
               rel="noreferrer"
               className="event-order-btn"
@@ -345,7 +345,7 @@ function App() {
               <Store size={26} />
               <span>OWNERS</span>
               <h3>Nani & Kamal</h3>
-              <p>Frozen Treart</p>
+              <p>Frozen Treat</p>
             </div>
 
             {/* CALL US */}
@@ -406,7 +406,7 @@ function App() {
           <IceCreamBowl size={27} />
 
           <div>
-            <strong>FROZEN TREART</strong>
+            <strong>FROZEN TREAT</strong>
             <span>Sweet moments, served chilled.</span>
           </div>
         </div>
@@ -418,7 +418,7 @@ function App() {
             href={googleMapsLink}
             target="_blank"
             rel="noreferrer"
-            aria-label="Open Frozen Treart location in Google Maps"
+            aria-label="Open Frozen Treat location in Google Maps"
           >
             <MapPin size={20} />
           </a>
@@ -427,7 +427,7 @@ function App() {
             href={instagramLink}
             target="_blank"
             rel="noreferrer"
-            aria-label="Visit Frozen Treart Instagram"
+            aria-label="Visit Frozen Treat Instagram"
           >
             <InstagramIcon size={20} />
           </a>
@@ -436,22 +436,22 @@ function App() {
             href={`https://wa.me/91${whatsappNumber}`}
             target="_blank"
             rel="noreferrer"
-            aria-label="Contact Frozen Treart on WhatsApp"
+            aria-label="Contact Frozen Treat on WhatsApp"
           >
             <MessageCircle size={20} />
           </a>
         </div>
 
-        <span>© 2026 Frozen Treart</span>
+        <span>© 2026 Frozen Treat</span>
       </footer>
 
       {/* FLOATING WHATSAPP BUTTON */}
       <a
         className="whatsapp-float"
-        href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treart,%20I%20would%20like%20to%20enquire%20about%20your%20services.`}
+        href={`https://wa.me/91${whatsappNumber}?text=Hello%20Frozen%20Treat,%20I%20would%20like%20to%20enquire%20about%20your%20services.`}
         target="_blank"
         rel="noreferrer"
-        aria-label="Contact Frozen Treart on WhatsApp"
+        aria-label="Contact Frozen Treat on WhatsApp"
       >
         <MessageCircle size={27} />
       </a>
