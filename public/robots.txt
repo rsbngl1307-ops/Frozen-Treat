@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frozen-treat.vercel.app/sitemap.xml
